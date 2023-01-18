@@ -2,3 +2,155 @@
     padding: 0;
     margin: 0;
 }
+
+body {
+    background: white;
+    color: black;
+    font-family: Roboto;
+}
+
+.page-top {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 337px;
+    justify-content: center;
+    max-width: 1289px;
+    margin: 0 auto 21px auto;
+    padding-top: 26px;
+    padding-bottom: 48px;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    list-style: none;
+    max-width: 556px;
+    padding: 11px;
+    width: 100%;
+}
+
+.menu-item-link {
+    color: black;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+.menu-item-link:hover {
+    color: #F25822;
+}
+
+.menu-item-link:active {
+    color: black;
+}
+
+.menu-item-link-home:hover {
+    color: black;
+}
+
+.menu-item-link-home:active {
+    color: #F25822;
+}
+
+.menu-item-link-home {
+    color: #F25822;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+.page-top-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    max-width: 1274px;
+    margin: auto;
+    padding: 15px 0 26px 17px;
+    width: 100%;
+}
+
+.page-top-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    max-width: 589px;
+    padding: 59px 26px 38px 41px;
+    width: 100%;
+}
+
+.page-top-title {
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.page-top-txt {
+    color: #888888;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.wrp-btn {
+    display: flex;
+    gap: 72px;
+}
+
+.btn-start {
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    border: 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 15px 36px 16px 35px;
+}
+
+.btn-start:hover {
+    background: white;
+    color: #F25822;
+}
+
+.btn-start:active {
+    background: #F25822;
+    color: white;
+}
+
+.btn-whatch {
+    border: 0;
+    background: white;
+    color: #AAAAAA;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.btn-whatch:hover {
+    background: #AAAAAA;
+    color: white;
+}
+
+.btn-whatch:active {
+    background: white;
+    color: #AAAAAA;
+}
+
+.page-top-picture {
+    height: 374.84px;
+    width: 544.81px;
+}
+
+.page-top-logos {
+    max-width: 1240px;
+    margin: 53px auto 32px auto;
+    width: 100%;
+}
+
+.logos-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    list-style: none;
+}
