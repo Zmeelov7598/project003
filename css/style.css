@@ -154,3 +154,200 @@ body {
     gap: 48px;
     list-style: none;
 }
+
+.values-center-top {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3, 310px);
+    gap: 60px;
+    max-width: 1915px;
+    margin: auto;
+    padding: 140px 0 125px 402px;
+    width: 100%;
+}
+
+.values-top-item-edges {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: start;
+    max-width: 310px;
+    min-height: 226px;
+    padding: 40px 0 25px 30px;
+    width: 100%;
+
+}
+
+.values-top-item-center {
+    background: #FFFFFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 370px;
+    justify-content: start;
+    min-height: 226px;
+    padding: 40px 0 25px 30px;
+    width: 100%;
+}
+
+.values-top-item-photo-1 {
+    background-image: url(../img/value1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 70px;
+}
+
+.values-top-item-photo-2 {
+    background-image: url(../img/value2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 70px;
+}
+
+.values-top-item-photo-3 {
+    background-image: url(../img/value3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 70px;
+}
+
+.values-item-title {
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.values-item-top-txt {
+    font-size: 15px;
+    line-height: 25px;
+    color: #666666;
+}
+
+.values-top-link {
+    color: #000000;
+    font-size: 11px;
+    line-height: 16px;
+    max-width: 64px;
+    min-height: 17px;
+    text-decoration: none;
+}
+
+.values-top-link:hover {
+    background-color: #FAFAFA;
+    color: #F25822;
+}
+
+.values-top-link:active {
+    background-color: white;
+    color: #000000;
+}
+
+.values-center-bottom {
+    background-color: #FAFAFA;
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    gap: 30px;
+    justify-content: center;
+    max-width: 1920px;
+    margin: auto;
+    width: 100%;
+}
+
+.values-bottom-item-column {
+    align-items: center;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 370px;
+    min-height: 549px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.values-bottom-item-title {
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.values-bottom-item-txt {
+    color: #AAAAAA;
+    font-size: 15px;
+    line-height: 22px;
+    margin-top: 22px;
+    text-align: center;
+}
+
+.values-bottom-item-row {
+    display: flex;
+    flex-direction: column;
+    grid-column: span 3;
+    max-width: 682px;
+    margin: 92px auto 0 auto;
+    width: 100%;
+}
+
+.values-item-row-title {
+    color: #000000;
+    font-size: 45px;
+    line-height: 53px;
+    margin: auto;
+}
+
+.values-item-row-txt {
+    color: #666666;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 642px;
+    min-height: 48px;
+    text-align: center;
+    margin: 19px 0 0 0;
+    width: 100%;
+}
+
+.values-bottom-item-photo-column {
+    background-image: url(../img/bottom-1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 297px;
+    width: 370px;
+}
+
+.values-bottom-item-column:nth-child(3)>.values-bottom-item-photo-column {
+    background-image: url(../img/bottom-2.png);
+}
+
+.values-bottom-item-column:nth-child(4)>.values-bottom-item-photo-column {
+    background-image: url(../img/bottom-3.png);
+}
+
+.btn-item-bottom {
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 39px;
+    max-width: 170px;
+    min-height: 50px;
+    padding: 15px 36px;
+    text-align: center;
+}
+
+.btn-item-bottom:hover {
+    background-color: white;
+    color: #F25822;
+}
+
+.btn-item-bottom:active {
+    background-color: #F25822;
+    color: #FFFFFF;
+}
