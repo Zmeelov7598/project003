@@ -160,9 +160,11 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 310px);
     gap: 60px;
+    justify-content: center;
     max-width: 1915px;
-    margin: auto;
-    padding: 140px 0 125px 402px;
+    margin: 0 auto 0 auto;
+    padding-top: 140px;
+    padding-bottom: 125px;
     width: 100%;
 }
 
